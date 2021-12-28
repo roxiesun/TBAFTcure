@@ -1,2 +1,7 @@
-# TBAFTcure
-Tree-based Bayesian AFT cure model for heterogenous treatment effect estimation
+# Code for TBAFTcure
+Authors: Rongqian Sun, Xinyuan Song
+
+Paper link: tbc
+
+Contact:<sunrq@link.cuhk.edu.hk>
+
