@@ -17,7 +17,7 @@ source('TBAFTcure.cpp')tr
 # packages <- c('Rcpp', 'RcppArmadillo','survival', 'survminer','TBAFTcure')
 # lapply(packages, require, character.only = TRUE)
 ```
--To run the algorithm, simply input the time-to-event outcome, status, covariate matrix, and binary treatment to the R function TBAFTcure and specify the number of iterations. A toy example is given below and further details can be find in simulation.R.
+- To run the algorithm, simply input the time-to-event outcome, status, covariate matrix, and binary treatment to the R function TBAFTcure and specify the number of iterations. A toy example is given below and further details can be find in simulation.R.
 ```
 n = 1000
 p = 8
@@ -53,4 +53,7 @@ cat('Number of uncured: ', sum(true_label), ' .\n')
 cat('Number of failed: ', sum(delta), ' .\n')
 fit <- TBAFTcure(y, delta, a, x, x, x_cure = cbind(x,a), pihat)
 ```
--Outputs
+- Outputs:
+ * posterior draws of (U)CATE: fit$tau
+ * posterior draws of group label: fit$cured_label
+ * variable usage count for control/modifer/cured tree: fit$varcnt_con, fit$varcnt_mod, fit$varcnt_cure
