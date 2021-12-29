@@ -5,7 +5,7 @@ Paper link: tbc
 
 Contact: <sunrq@link.cuhk.edu.hk>
 
-This directory provides implementation of the tree-based Bayesian AFT cure model for heterogenous treatment effect estimation with simulated dataset.
+This directory provides implementation of the tree-based Bayesian AFT cure model for heterogenous treatment effect estimation with simulated dataset. The code regarding binary trees follows R package [bcf](https://github.com/jaredsmurray/bcf) and the work of [Hahn et al. (2020)](https://projecteuclid.org/journals/bayesian-analysis/volume-15/issue-3/Bayesian-Regression-Tree-Models-for-Causal-Inference--Regularization-Confounding/10.1214/19-BA1195.full) on Bayesian causal forest.
 
 ## Implementation details
 ```
