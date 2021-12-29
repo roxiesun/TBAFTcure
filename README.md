@@ -54,6 +54,6 @@ cat('Number of failed: ', sum(delta), ' .\n')
 fit <- TBAFTcure(y, delta, a, x, x, x_cure = cbind(x,a), pihat)
 ```
 - Outputs:
- *posterior draws of (U)CATE: fit$tau
- *posterior draws of group label: fit$cured_label
- *variable usage count for control/modifer/cured tree: fit$varcnt_con, fit$varcnt_mod, fit$varcnt_cure
+  + posterior draws of (U)CATE: fit$tau
+  + posterior draws of group label: fit$cured_label
+  + variable usage count for control/modifer/cured tree: fit$varcnt_con, fit$varcnt_mod, fit$varcnt_cure
