@@ -17,7 +17,7 @@ source('TBAFTcure.cpp')tr
 # packages <- c('Rcpp', 'RcppArmadillo','survival', 'survminer','TBAFTcure')
 # lapply(packages, require, character.only = TRUE)
 ```
-- To run the algorithm, simply input the time-to-event outcome, status, covariate matrix, and binary treatment to the R function TBAFTcure and specify the number of iterations. A toy example is given below and further details can be find in simulation.R.
+- To run the algorithm, simply input the time-to-event outcome, status, covariate matrix, and binary treatment to the R function TBAFTcure and specify the number of iterations. A toy example is given below and further details can be found in simulation.R.
 ```
 n = 1000
 p = 8
